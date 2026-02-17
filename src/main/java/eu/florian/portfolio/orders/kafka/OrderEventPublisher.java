@@ -1,7 +1,7 @@
 package eu.florian.portfolio.orders.kafka;
 
 import tools.jackson.databind.ObjectMapper;
-import eu.florian.portfolio.contracts.order.OrderCreatedEvent;
+import eu.florian.portfolio.contracts.OrderCreatedEvent;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.stereotype.Component;

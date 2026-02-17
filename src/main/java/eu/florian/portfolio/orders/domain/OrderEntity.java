@@ -62,4 +62,12 @@ public class OrderEntity {
     public Instant getCreatedAt() {
         return createdAt;
     }
+
+    public void markPaid() {
+        this.status = OrderStatus.PAID;
+    }
+
+    public void markPaymentFailed() {
+        this.status = OrderStatus.PAYMENT_FAILED;
+    }
 }

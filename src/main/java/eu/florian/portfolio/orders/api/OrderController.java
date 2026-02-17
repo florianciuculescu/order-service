@@ -1,6 +1,6 @@
 package eu.florian.portfolio.orders.api;
 
-import eu.florian.portfolio.contracts.order.OrderCreatedEvent;
+import eu.florian.portfolio.contracts.OrderCreatedEvent;
 import eu.florian.portfolio.orders.domain.OrderEntity;
 import eu.florian.portfolio.orders.domain.OrderRepository;
 import eu.florian.portfolio.orders.domain.OrderStatus;

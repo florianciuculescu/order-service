@@ -1,5 +1,7 @@
 package eu.florian.portfolio.orders.domain;
 
 public enum OrderStatus {
-    CREATED
+    CREATED,
+    PAID,
+    PAYMENT_FAILED
 }
