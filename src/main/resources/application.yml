@@ -14,10 +14,15 @@ spring:
       ddl-auto: validate
     properties:
       hibernate:
+        default_schema: orders
         format_sql: true
 
   flyway:
     enabled: true
+    schemas: orders
+    default-schema: orders
+    create-schemas: true
+    table: flyway_schema_history_orders
 
   kafka:
     bootstrap-servers: localhost:9092
